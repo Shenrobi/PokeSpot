@@ -12,6 +12,7 @@
 		E47FBDE51D8C543C0045A0DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47FBDE31D8C543C0045A0DF /* Main.storyboard */; };
 		E47FBDE71D8C543C0045A0DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47FBDE61D8C543C0045A0DF /* Assets.xcassets */; };
 		E47FBDEA1D8C543C0045A0DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47FBDE81D8C543C0045A0DF /* LaunchScreen.storyboard */; };
+		E47FBDF21D8C55930045A0DF /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E47FBDF11D8C55930045A0DF /* Pokemon Solid.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E47FBDE61D8C543C0045A0DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47FBDE91D8C543C0045A0DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E47FBDEB1D8C543C0045A0DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47FBDF11D8C55930045A0DF /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E47FBDE61D8C543C0045A0DF /* Assets.xcassets */,
 				E47FBDE81D8C543C0045A0DF /* LaunchScreen.storyboard */,
 				E47FBDEB1D8C543C0045A0DF /* Info.plist */,
+				E47FBDF11D8C55930045A0DF /* Pokemon Solid.ttf */,
 			);
 			path = PokeSpot;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E47FBDEA1D8C543C0045A0DF /* LaunchScreen.storyboard in Resources */,
+				E47FBDF21D8C55930045A0DF /* Pokemon Solid.ttf in Resources */,
 				E47FBDE71D8C543C0045A0DF /* Assets.xcassets in Resources */,
 				E47FBDE51D8C543C0045A0DF /* Main.storyboard in Resources */,
 			);

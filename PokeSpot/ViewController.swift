@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import MapKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MKMapViewDelegate {
 
+    @IBOutlet weak var mapView: MKMapView!
+    
+    let locationManager = CLLocationManager()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        mapView.delegate = self
+        mapView.userTrackingMode = MKUserTrackingMode.follow
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +29,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func spotRandomPokemon(_ sender: AnyObject) {
+    }
+    
 }
 
