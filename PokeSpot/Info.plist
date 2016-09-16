@@ -45,5 +45,7 @@
 	<array>
 		<string>Pokemon Solid.ttf</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need to use your location to show near-by Pokemon.</string>
 </dict>
 </plist>
